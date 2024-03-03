@@ -1,10 +1,14 @@
-Create table files(
-    ID int Primary Key,
-    file_name varchar(100),
-    file_type varchar(10)
+create table files_details(
+	id int PRIMARY KEY,
+	name varchar(30),
+	Type varchar(30),
+	size bigint,
+	create_time timestamp,
+	modified_time timestamp,
+	Path varchar(100)
 );
 
-Create table Update_files_in_db(
-      id  serial,
-      file_count int
+create table files_count(
+    id int Primary Key,
+    count int
 );

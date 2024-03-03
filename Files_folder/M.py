@@ -8,3 +8,5 @@ for i in list_files_from_db:
     i=".".join(i)
     new_l.append(i)
 print(new_l)
+
+# adk  
